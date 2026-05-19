@@ -1,12 +1,44 @@
-# communityhousenetwork.com
+# Community House Network
 
-1. Put code in this repo on Github
-2. Clone repository with Github Desktop App
-3. Install React/NodeJS on your computer
-4. Open VSCode and create React app in VSCode terminal (use basic react deployment tutorial or try `npm install` then `npm build` then `npm deploy`)
-5. Push changes with Github Desktop App
-6. Go to repo settings and look for "Pages". Select the main/master branch to publish the website.
-7. Connect the custom domain and save.
-8. Go to NameCheap and make the domain point to Github (I think it already does; if so, skip this step).
-9. Check domain for website
-10. Edit any code to update the website
+A Vite and React site for Community House Network.
+
+## Local Development
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build the production site:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## GitHub Pages
+
+This project builds static files into `dist/` and includes a GitHub Actions workflow at `.github/workflows/deploy-pages.yml`.
+
+To enable deployment:
+
+1. Push the repository to GitHub.
+2. In GitHub, open **Settings > Pages**.
+3. Set **Build and deployment > Source** to **GitHub Actions**.
+4. Push to `main`, or run **Deploy to GitHub Pages** manually from the **Actions** tab.
+
+The workflow runs `npm ci`, `npm run lint`, `npm run typecheck`, and `npm run build`, then publishes `dist/` to GitHub Pages.
+
+This repo includes `public/CNAME` for the custom domain `communityhousenetwork.com`. Make sure the same domain is configured in **Settings > Pages > Custom domain** and that your DNS provider points the domain to GitHub Pages.

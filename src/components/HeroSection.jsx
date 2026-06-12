@@ -33,7 +33,7 @@ export default function HeroSection() {
             className="flex items-center gap-3 mb-8"
           >
             <div className="w-12 h-px bg-primary" />
-            <span className="text-sm tracking-[0.2em] uppercase text-primary font-medium">
+            <span className="text-lg tracking-[0.2em] uppercase text-primary font-medium">
               Community House Network
             </span>
           </motion.div>
@@ -47,16 +47,17 @@ export default function HeroSection() {
           </h1>
 
           <p className="text-lg md:text-xl text-foreground/60 max-w-lg leading-relaxed mb-12 font-light">
-            A network of church planters turning neighborhoods into communities —
-            one house, one table, one neighbor at a time.
+            Turning neighborhoods into communities — one house, one table, one neighbor at a time.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="#network"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeYf7cYfovcXKap4pcKc-2QdHfYGTrX5RMegs245DoU2g-8IA/viewform?usp=header"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-full text-center hover:bg-primary/90 transition-all duration-300 animate-glow"
             >
-              Enter the Network
+              Join the Network
             </a>
             <a
               href="#coaching"

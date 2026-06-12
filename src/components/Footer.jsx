@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="flex flex-col items-center md:items-start gap-4">
             <img src={LOGO_WHITE} alt="Community House Network" className="h-8 w-auto opacity-60" />
             <p className="text-sm text-foreground/40 text-center md:text-left max-w-sm">
-              An organic church planting movement. Ministry in communities, homes, and everyday lives.
+              Join the movement.
             </p>
           </div>
 

@@ -35,7 +35,7 @@ export default function ConnectSection() {
           >
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-px bg-primary" />
-              <span className="text-sm tracking-[0.2em] uppercase text-primary font-medium">
+              <span className="text-base tracking-[0.2em] uppercase text-primary font-medium">
                 Get Connected
               </span>
             </div>
@@ -56,7 +56,7 @@ export default function ConnectSection() {
 
             <div className="space-y-4 mb-10">
               <a
-                href="mailto:connect@communityhousenetwork.org"
+                href="mailto:connect@communityhousenetwork.com"
                 className="flex items-center gap-4 p-5 rounded-xl border border-border/50 bg-background/50 hover:border-primary/30 transition-all duration-300 group"
               >
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
@@ -64,7 +64,7 @@ export default function ConnectSection() {
                 </div>
                 <div className="flex-1">
                   <p className="font-medium text-sm">Email Us</p>
-                  <p className="text-foreground/50 text-sm">connect@communityhousenetwork.org</p>
+                  <p className="text-foreground/50 text-sm">connect@communityhousenetwork.com</p>
                 </div>
                 <ArrowRight className="w-5 h-5 text-foreground/30 group-hover:text-primary transition-colors" />
               </a>
@@ -72,13 +72,17 @@ export default function ConnectSection() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="mailto:connect@communityhousenetwork.org?subject=Join%20the%20Network"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeYf7cYfovcXKap4pcKc-2QdHfYGTrX5RMegs245DoU2g-8IA/viewform?usp=header"
+              target="_blank"
+              rel="noopener noreferrer"
                 className="px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-full text-center hover:bg-primary/90 transition-all duration-300"
               >
                 Join the Network
               </a>
               <a
-                href="mailto:connect@communityhousenetwork.org?subject=Coaching%20Inquiry"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfi7bxkrq4WLH36TRt9x8NMnfmNwKEqvukUAaB3JXPRwUgzRg/viewform?usp=header"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-8 py-4 border border-foreground/20 text-foreground font-medium rounded-full text-center hover:border-primary/50 hover:text-primary transition-all duration-300"
               >
                 Request Coaching

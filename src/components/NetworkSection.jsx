@@ -46,35 +46,41 @@ export default function NetworkSection() {
         >
           <div className="flex items-center gap-3 mb-8">
             <div className="w-12 h-px bg-primary" />
-            <span className="text-sm tracking-[0.2em] uppercase text-primary font-medium">
+            <span className="text-base tracking-[0.2em] uppercase text-primary font-medium">
               The Network
             </span>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-start mb-16">
-            <div>
-              <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-medium leading-tight">
-                A family of
-                <br />
-                <span className="italic text-primary">church planters.</span>
-              </h2>
-            </div>
-            <div className="space-y-6">
-              <div className="p-6 rounded-2xl border border-border/50 bg-background/40">
-                <p className="text-xs tracking-[0.2em] uppercase text-secondary font-medium mb-3">Our Mission</p>
-                <p className="text-foreground/80 leading-relaxed">
-                  To plant gospel-centered communities in the places people already live —
-                  turning neighborhoods into communities, one house, one table, one neighbor at a time.
-                </p>
-              </div>
-              <div className="p-6 rounded-2xl border border-border/50 bg-background/40">
-                <p className="text-xs tracking-[0.2em] uppercase text-secondary font-medium mb-3">Our Vision</p>
-                <p className="text-foreground/80 leading-relaxed">
-                  Community House Network exists to resource, connect, and multiply a generation of
-                  church planters who bring the presence of Christ into every neighborhood —
-                  until every community has a house where neighbors gather, prayers are answered,
-                  lives are changed, and people are discovering Jesus.
-                </p>
+          <div className="mb-16">
+            <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-medium leading-tight mb-10">
+              A network of
+              <br />
+              <span className="italic text-primary">good neighbors.</span>
+            </h2>
+            <div className="p-6 rounded-2xl border border-border/50 bg-background/40">
+              <p className="text-xs tracking-[0.2em] uppercase text-secondary font-medium mb-4">Join the Movement</p>
+              <div className="grid sm:grid-cols-2 gap-6 text-sm text-foreground/80">
+                <div>
+                  <p className="font-medium text-foreground/90 mb-2">Monthly Network Gathering (Zoom)</p>
+                  <ul className="space-y-1 list-none">
+                    <li>• Share stories and celebrations</li>
+                    <li>• Discuss challenges and questions</li>
+                    <li>• Pray for one another</li>
+                    <li>• Learn practical neighboring insights</li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="font-medium text-foreground/90 mb-2">Ongoing Training Opportunities</p>
+                  <p className="leading-relaxed">Several times each year, Community House offers additional workshops and training sessions that build upon the foundations of neighboring and community development.</p>
+                </div>
+                <div>
+                  <p className="font-medium text-foreground/90 mb-2">Access to Support</p>
+                  <p className="leading-relaxed">Members may reach out between gatherings when questions, opportunities, or challenges arise. Sometimes a simple conversation can help clarify next steps.</p>
+                </div>
+                <div>
+                  <p className="font-medium text-foreground/90 mb-2">A Community of Like-Minded People</p>
+                  <p className="leading-relaxed">One of the greatest benefits of the Network is knowing that you are not doing this alone. Members are connected with others who are seeking to live out the Great Commandment in practical ways.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -96,7 +102,7 @@ export default function NetworkSection() {
           <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
           <div className="absolute bottom-8 left-8 right-8">
             <p className="font-playfair text-2xl md:text-3xl italic text-foreground/90">
-              "God is turning a neighborhood into a community."
+              "Turning a neighborhood into a community."
             </p>
             <p className="text-foreground/50 mt-2 text-sm">— The Community House Story, Lansing, IL</p>
           </div>
@@ -112,7 +118,7 @@ export default function NetworkSection() {
         >
           <div className="flex items-center gap-3 mb-12">
             <div className="w-12 h-px bg-secondary" />
-            <span className="text-sm tracking-[0.2em] uppercase text-secondary font-medium">
+            <span className="text-base tracking-[0.2em] uppercase text-secondary font-medium">
               Core Values
             </span>
           </div>
@@ -134,9 +140,9 @@ export default function NetworkSection() {
               <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors duration-500">
                 <value.icon className="w-5 h-5 text-primary" />
               </div>
-              <p className="text-xs tracking-[0.2em] uppercase text-secondary font-medium mb-2">{value.word}</p>
-              <h3 className="font-playfair text-xl font-medium mb-3">{value.title}</h3>
-              <p className="text-foreground/55 leading-relaxed text-sm">
+              <p className="text-sm tracking-[0.2em] uppercase text-secondary font-medium mb-2">{value.word}</p>
+              <h3 className="font-playfair text-2xl font-medium mb-3">{value.title}</h3>
+              <p className="text-foreground/55 leading-relaxed text-base">
                 {value.description}
               </p>
             </motion.div>

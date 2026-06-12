@@ -46,7 +46,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between h-20">
         <a href="#" className="flex items-center gap-3">
-          <img src={LOGO_WHITE} alt="Community House Network" className="h-10 w-auto" />
+          <img src={LOGO_WHITE} alt="Community House Network" className="h-20 w-auto" />
         </a>
 
         <div className="hidden md:flex items-center gap-2">
@@ -73,7 +73,9 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#connect"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeYf7cYfovcXKap4pcKc-2QdHfYGTrX5RMegs245DoU2g-8IA/viewform?usp=header"
+            target="_blank"
+            rel="noopener noreferrer"
             className="ml-4 px-6 py-2.5 bg-primary text-primary-foreground text-sm font-semibold rounded-full hover:bg-primary/90 transition-all duration-300"
           >
             Join the Network
@@ -108,7 +110,9 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="#connect"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeYf7cYfovcXKap4pcKc-2QdHfYGTrX5RMegs245DoU2g-8IA/viewform?usp=header"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setMenuOpen(false)}
                 className="mt-2 px-6 py-3 bg-primary text-primary-foreground text-center font-semibold rounded-full"
               >
